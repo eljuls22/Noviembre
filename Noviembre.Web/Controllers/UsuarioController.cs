@@ -6,13 +6,10 @@ using System.Web.Mvc;
 
 namespace Noviembre.Web.Controllers
 {
-    public class HomeController : Controller { 
-            //Acciones de controlador
+    public class UsuarioController : Controller
+    {
+        // GET: Usuario
         public ActionResult Index()
-        {
-            return View();
-        }
-        public ActionResult Bienvenida()
         {
             return View();
         }
